@@ -40,8 +40,8 @@ export const sendConfirmationEmail = async ({ userId }: SendConfirmationEmailPro
 
   const assetBaseUrl = NEXT_PUBLIC_WEBAPP_URL() || 'http://localhost:3000';
   const confirmationLink = `${assetBaseUrl}/verify-email/${verificationToken.token}`;
-  const senderName = NEXT_PRIVATE_SMTP_FROM_NAME || 'Documenso';
-  const senderAddress = NEXT_PRIVATE_SMTP_FROM_ADDRESS || 'noreply@documenso.com';
+  const senderName = NEXT_PRIVATE_SMTP_FROM_NAME || 'DocHub - 0xMetaLAbs';
+  const senderAddress = NEXT_PRIVATE_SMTP_FROM_ADDRESS || 'noreply@ses.0xmetalabs.com';
 
   const confirmationTemplate = createElement(ConfirmEmailTemplate, {
     assetBaseUrl,

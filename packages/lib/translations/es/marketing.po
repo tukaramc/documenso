@@ -75,8 +75,8 @@ msgid "Build on top."
 msgstr "Construir sobre."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:163
-msgid "Can I use Documenso commercially?"
-msgstr "¿Puedo usar Documenso comercialmente?"
+msgid "Can I use 0xDocHub commercially?"
+msgstr "¿Puedo usar 0xDocHub comercialmente?"
 
 #: apps/marketing/src/components/(marketing)/footer.tsx:42
 msgid "Careers"
@@ -139,12 +139,12 @@ msgid "Direct Link"
 msgstr "Enlace Directo"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:181
-msgid "Documenso is a community effort to create an open and vibrant ecosystem around a tool, everybody is free to use and adapt. By being truly open we want to create trusted infrastructure for the future of the internet."
-msgstr "Documenso es un esfuerzo comunitario para crear un ecosistema abierto y vibrante alrededor de una herramienta que todos son libres de usar y adaptar. Al ser verdaderamente abierto, queremos crear una infraestructura confiable para el futuro de internet."
+msgid "0xDocHub is a community effort to create an open and vibrant ecosystem around a tool, everybody is free to use and adapt. By being truly open we want to create trusted infrastructure for the future of the internet."
+msgstr "0xDocHub es un esfuerzo comunitario para crear un ecosistema abierto y vibrante alrededor de una herramienta que todos son libres de usar y adaptar. Al ser verdaderamente abierto, queremos crear una infraestructura confiable para el futuro de internet."
 
 #: apps/marketing/src/app/(marketing)/open/typefully.tsx:28
-msgid "Documenso on X"
-msgstr "Documenso en X"
+msgid "0xDocHub on X"
+msgstr "0xDocHub en X"
 
 #: apps/marketing/src/components/(marketing)/hero.tsx:104
 msgid "Document signing,<0/>finally open source."
@@ -157,8 +157,8 @@ msgid "Documentation"
 msgstr "Documentación"
 
 #: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:110
-msgid "Easily embed Documenso into your product. Simply copy and paste our react widget into your application."
-msgstr "Incrusta fácilmente Documenso en tu producto. Simplemente copia y pega nuestro widget de react en tu aplicación."
+msgid "Easily embed 0xDocHub into your product. Simply copy and paste our react widget into your application."
+msgstr "Incrusta fácilmente 0xDocHub en tu producto. Simplemente copia y pega nuestro widget de react en tu aplicación."
 
 #: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:46
 msgid "Easy Sharing."
@@ -243,8 +243,8 @@ msgid "Get started today."
 msgstr "Comienza hoy."
 
 #: apps/marketing/src/app/(marketing)/blog/page.tsx:30
-msgid "Get the latest news from Documenso, including product updates, team announcements and more!"
-msgstr "¡Obtén las últimas noticias de Documenso, incluidas actualizaciones de productos, anuncios del equipo y más!"
+msgid "Get the latest news from 0xDocHub, including product updates, team announcements and more!"
+msgstr "¡Obtén las últimas noticias de 0xDocHub, incluidas actualizaciones de productos, anuncios del equipo y más!"
 
 #: apps/marketing/src/app/(marketing)/open/page.tsx:233
 msgid "GitHub: Total Merged PRs"
@@ -370,8 +370,8 @@ msgid "Our custom templates come with smart rules that can help you save time an
 msgstr "Nuestras plantillas personalizadas vienen con reglas inteligentes que pueden ayudarte a ahorrar tiempo y energía."
 
 #: apps/marketing/src/components/(marketing)/enterprise.tsx:20
-msgid "Our Enterprise License is great for large organizations looking to switch to Documenso for all their signing needs. It's available for our cloud offering as well as self-hosted setups and offers a wide range of compliance and Adminstration Features."
-msgstr "Nuestra Licencia Empresarial es excelente para grandes organizaciones que buscan cambiar a Documenso para todas sus necesidades de firma. Está disponible para nuestra oferta en la nube, así como para configuraciones autoalojadas y ofrece una amplia gama de funciones de cumplimiento y administración."
+msgid "Our Enterprise License is great for large organizations looking to switch to 0xDocHub for all their signing needs. It's available for our cloud offering as well as self-hosted setups and offers a wide range of compliance and Adminstration Features."
+msgstr "Nuestra Licencia Empresarial es excelente para grandes organizaciones que buscan cambiar a 0xDocHub para todas sus necesidades de firma. Está disponible para nuestra oferta en la nube, así como para configuraciones autoalojadas y ofrece una amplia gama de funciones de cumplimiento y administración."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:65
 msgid "Our self-hosted option is great for small teams and individuals who need a simple solution. You can use our docker based setup to get started in minutes. Take control with full customizability and data ownership."
@@ -564,8 +564,8 @@ msgid "View all stats"
 msgstr "Ver todas las estadísticas"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:195
-msgid "We are happy to assist you at <0>support@documenso.com</0> or <1>in our Discord-Support-Channel</1> please message either Lucas or Timur to get added to the channel if you are not already a member."
-msgstr "Estamos felices de ayudarte en <0>support@documenso.com</0> o <1>en nuestro canal de soporte de Discord</1>. Mensaje a Lucas o Timur para que te agreguen al canal si aún no eres miembro."
+msgid "We are happy to assist you at <0>support@0xmetalabs.com</0> or <1>in our Discord-Support-Channel</1> please message either Lucas or Timur to get added to the channel if you are not already a member."
+msgstr "Estamos felices de ayudarte en <0>support@0xmetalabs.com</0> o <1>en nuestro canal de soporte de Discord</1>. Mensaje a Lucas o Timur para que te agreguen al canal si aún no eres miembro."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:89
 msgid "What is the difference between the plans?"
@@ -580,8 +580,8 @@ msgid "Where can I get support?"
 msgstr "¿Dónde puedo obtener soporte?"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:177
-msgid "Why should I prefer Documenso over DocuSign or some other signing tool?"
-msgstr "¿Por qué debería preferir Documenso sobre DocuSign u otra herramienta de firma?"
+msgid "Why should I prefer 0xDocHub over DocuSign or some other signing tool?"
+msgstr "¿Por qué debería preferir 0xDocHub sobre DocuSign u otra herramienta de firma?"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:119
 msgid "Why should I use your hosting service?"
@@ -592,12 +592,12 @@ msgid "Yearly"
 msgstr "Anual"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:167
-msgid "Yes! Documenso is offered under the GNU AGPL V3 open source license. This means you can use it for free and even modify it to fit your needs, as long as you publish your changes under the same license."
-msgstr "¡Sí! Documenso se ofrece bajo la licencia de código abierto GNU AGPL V3. Esto significa que puedes usarlo de forma gratuita e incluso modificarlo para adaptarlo a tus necesidades, siempre que publiques tus cambios bajo la misma licencia."
+msgid "Yes! 0xDocHub is offered under the GNU AGPL V3 open source license. This means you can use it for free and even modify it to fit your needs, as long as you publish your changes under the same license."
+msgstr "¡Sí! 0xDocHub se ofrece bajo la licencia de código abierto GNU AGPL V3. Esto significa que puedes usarlo de forma gratuita e incluso modificarlo para adaptarlo a tus necesidades, siempre que publiques tus cambios bajo la misma licencia."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:93
-msgid "You can self-host Documenso for free or use our ready-to-use hosted version. The hosted version comes with additional support, painless scalability and more. Early adopters will get access to all features we build this year, for no additional cost! Forever! Yes, that includes multiple users per account later. If you want Documenso for your enterprise, we are happy to talk about your needs."
-msgstr "Puedes autoalojar Documenso de forma gratuita o usar nuestra versión alojada lista para usar. La versión alojada viene con soporte adicional, escalabilidad sin problemas y más. Los primeros adoptantes tendrán acceso a todas las funciones que construimos este año, sin costo adicional. ¡Para siempre! Sí, eso incluye múltiples usuarios por cuenta más adelante. Si quieres Documenso para tu empresa, estaremos encantados de hablar sobre tus necesidades."
+msgid "You can self-host 0xDocHub for free or use our ready-to-use hosted version. The hosted version comes with additional support, painless scalability and more. Early adopters will get access to all features we build this year, for no additional cost! Forever! Yes, that includes multiple users per account later. If you want 0xDocHub for your enterprise, we are happy to talk about your needs."
+msgstr "Puedes autoalojar 0xDocHub de forma gratuita o usar nuestra versión alojada lista para usar. La versión alojada viene con soporte adicional, escalabilidad sin problemas y más. Los primeros adoptantes tendrán acceso a todas las funciones que construimos este año, sin costo adicional. ¡Para siempre! Sí, eso incluye múltiples usuarios por cuenta más adelante. Si quieres 0xDocHub para tu empresa, estaremos encantados de hablar sobre tus necesidades."
 
 #: apps/marketing/src/components/(marketing)/carousel.tsx:272
 msgid "Your browser does not support the video tag."

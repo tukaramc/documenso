@@ -1,7 +1,10 @@
 ###########################
 #     BASE CONTAINER      #
 ###########################
-FROM node:18-alpine AS base
+FROM node:18-alpine3.20 AS base
+
+# Common packages for all stages
+# RUN apk add --no-cache openssl1.1-compat
 
 ###########################
 #    BUILDER CONTAINER    #
@@ -9,6 +12,7 @@ FROM node:18-alpine AS base
 FROM base AS builder
 
 # Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
+
 RUN apk add --no-cache libc6-compat
 RUN apk add --no-cache jq
 WORKDIR /app
@@ -77,6 +81,9 @@ RUN turbo run build --filter=@documenso/web...
 FROM base AS runner
 
 WORKDIR /app
+
+# # Add OpenSSL 1.1 compatibility FIRST
+# RUN apk add --no-cache openssl1.1-compat
 
 # Don't run production as root
 RUN addgroup --system --gid 1001 nodejs

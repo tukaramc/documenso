@@ -67,7 +67,7 @@ test('[TEMPLATE]: should create a document from a template', async ({ page }) =>
 
   await page.locator('.time-zone-field').click();
   await page.getByRole('option', { name: 'Etc/UTC' }).click();
-  await page.getByLabel('Redirect URL').fill('https://documenso.com');
+  await page.getByLabel('Redirect URL').fill('https://dochub.ngx.0xmetalabs.com');
   await page.getByRole('button', { name: 'Continue' }).click();
 
   await expect(page.getByRole('heading', { name: 'Add Placeholder' })).toBeVisible();
@@ -122,7 +122,7 @@ test('[TEMPLATE]: should create a document from a template', async ({ page }) =>
   );
   expect(document.documentMeta?.dateFormat).toEqual('dd/MM/yyyy hh:mm a');
   expect(document.documentMeta?.message).toEqual('MESSAGE');
-  expect(document.documentMeta?.redirectUrl).toEqual('https://documenso.com');
+  expect(document.documentMeta?.redirectUrl).toEqual('https://dochub.ngx.0xmetalabs.com');
   expect(document.documentMeta?.subject).toEqual('SUBJECT');
   expect(document.documentMeta?.timezone).toEqual('Etc/UTC');
 
@@ -202,7 +202,7 @@ test('[TEMPLATE]: should create a team document from a team template', async ({ 
 
   await page.locator('.time-zone-field').click();
   await page.getByRole('option', { name: 'Etc/UTC' }).click();
-  await page.getByLabel('Redirect URL').fill('https://documenso.com');
+  await page.getByLabel('Redirect URL').fill('https://dochub.ngx.0xmetalabs.com');
   await page.getByRole('button', { name: 'Continue' }).click();
 
   await expect(page.getByRole('heading', { name: 'Add Placeholder' })).toBeVisible();
@@ -259,7 +259,7 @@ test('[TEMPLATE]: should create a team document from a team template', async ({ 
   );
   expect(document.documentMeta?.dateFormat).toEqual('dd/MM/yyyy hh:mm a');
   expect(document.documentMeta?.message).toEqual('MESSAGE');
-  expect(document.documentMeta?.redirectUrl).toEqual('https://documenso.com');
+  expect(document.documentMeta?.redirectUrl).toEqual('https://dochub.ngx.0xmetalabs.com');
   expect(document.documentMeta?.subject).toEqual('SUBJECT');
   expect(document.documentMeta?.timezone).toEqual('Etc/UTC');
 

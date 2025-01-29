@@ -19,16 +19,16 @@ export type TeamLeaveEmailProps = {
 
 export const TeamLeaveEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
-  baseUrl = 'https://documenso.com',
+  baseUrl = 'https://dochub.ngx.0xmetalabs.com',
   memberName = 'John Doe',
-  memberEmail = 'johndoe@documenso.com',
+  memberEmail = 'johndoe@0xmetalabs.com',
   teamName = 'Team Name',
   teamUrl = 'demo',
 }: TeamLeaveEmailProps) => {
   const { _ } = useLingui();
   const branding = useBranding();
 
-  const previewText = msg`A team member has left a team on Documenso`;
+  const previewText = msg`A team member has left a team on 0xDocHub`;
 
   return (
     <Html>
@@ -59,7 +59,7 @@ export const TeamLeaveEmailTemplate = ({
             <Section className="p-2 text-slate-500">
               <Text className="text-center text-lg font-medium text-black">
                 <Trans>
-                  {memberName || memberEmail} left the team {teamName} on Documenso
+                  {memberName || memberEmail} left the team {teamName} on 0xDocHub
                 </Trans>
               </Text>
 

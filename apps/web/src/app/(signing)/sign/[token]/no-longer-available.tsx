@@ -61,10 +61,10 @@ export const NoLongerAvailable = ({
             <Trans>
               Want to send slick signing links like this one?{' '}
               <Link
-                href="https://documenso.com"
+                href="https://dochub.ngx.0xmetalabs.com"
                 className="text-documenso-700 hover:text-documenso-600"
               >
-                Check out Documenso.
+                Check out 0xDocHub.
               </Link>
             </Trans>
           </p>

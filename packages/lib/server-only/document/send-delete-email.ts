@@ -76,8 +76,8 @@ export const sendDeleteEmail = async ({ documentId, reason }: SendDeleteEmailOpt
       name: name || '',
     },
     from: {
-      name: process.env.NEXT_PRIVATE_SMTP_FROM_NAME || 'Documenso',
-      address: process.env.NEXT_PRIVATE_SMTP_FROM_ADDRESS || 'noreply@documenso.com',
+      name: process.env.NEXT_PRIVATE_SMTP_FROM_NAME || 'DocHub - 0xMetaLabs',
+      address: process.env.NEXT_PRIVATE_SMTP_FROM_ADDRESS || 'noreply@ses.0xmetalabs.com',
     },
     subject: i18n._(msg`Document Deleted!`),
     html,

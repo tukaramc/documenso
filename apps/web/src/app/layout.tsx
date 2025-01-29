@@ -26,29 +26,29 @@ const fontCaveat = Caveat({ subsets: ['latin'], variable: '--font-signature' });
 export function generateMetadata() {
   return {
     title: {
-      template: '%s - Documenso',
-      default: 'Documenso',
+      template: '%s - 0xDocHub',
+      default: '0xDocHub',
     },
     description:
-      'Join Documenso, the open signing infrastructure, and get a 10x better signing experience. Pricing starts at $30/mo. forever! Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.',
+      '0xDocHub, Digital Document Hub for 0xMetaLabs.',
     keywords:
-      'Documenso, open source, DocuSign alternative, document signing, open signing infrastructure, open-source community, fast signing, beautiful signing, smart templates',
-    authors: { name: 'Documenso, Inc.' },
+      '0xDocHub, DocuSign alternative, document signing, document signing infrastructure, fast signing, beautiful signing, smart templates',
+    authors: { name: '0xMetaLabs, Inc.' },
     robots: 'index, follow',
     metadataBase: new URL(NEXT_PUBLIC_WEBAPP_URL() ?? 'http://localhost:3000'),
     openGraph: {
-      title: 'Documenso - The Open Source DocuSign Alternative',
+      title: '0xDocHub - Digital Document Hub for 0xMetaLabs',
       description:
-        'Join Documenso, the open signing infrastructure, and get a 10x better signing experience. Pricing starts at $30/mo. forever! Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.',
+        '0xDocHub, Digital Document Hub for 0xMetaLabs.',
       type: 'website',
       images: ['/opengraph-image.jpg'],
     },
     twitter: {
-      site: '@documenso',
+      site: '@0xmetalabs',
       card: 'summary_large_image',
       images: ['/opengraph-image.jpg'],
       description:
-        'Join Documenso, the open signing infrastructure, and get a 10x better signing experience. Pricing starts at $30/mo. forever! Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.',
+        '0xDocHub, Digital Document Hub for 0xMetaLabs.',
     },
   };
 }

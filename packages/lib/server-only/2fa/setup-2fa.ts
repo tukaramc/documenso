@@ -13,7 +13,7 @@ type SetupTwoFactorAuthenticationOptions = {
   user: User;
 };
 
-const ISSUER = 'Documenso';
+const ISSUER = '0xDocHub';
 
 export const setupTwoFactorAuthentication = async ({
   user,

@@ -108,8 +108,8 @@ export const sendCompletedEmail = async ({ documentId, requestMetadata }: SendDo
         },
       ],
       from: {
-        name: process.env.NEXT_PRIVATE_SMTP_FROM_NAME || 'Documenso',
-        address: process.env.NEXT_PRIVATE_SMTP_FROM_ADDRESS || 'noreply@documenso.com',
+        name: process.env.NEXT_PRIVATE_SMTP_FROM_NAME || 'DocHub - 0xMetaLabs',
+        address: process.env.NEXT_PRIVATE_SMTP_FROM_ADDRESS || 'noreply@ses.0xmetalabs.com',
       },
       subject: i18n._(msg`Signing Complete!`),
       html,
@@ -185,8 +185,8 @@ export const sendCompletedEmail = async ({ documentId, requestMetadata }: SendDo
           },
         ],
         from: {
-          name: process.env.NEXT_PRIVATE_SMTP_FROM_NAME || 'Documenso',
-          address: process.env.NEXT_PRIVATE_SMTP_FROM_ADDRESS || 'noreply@documenso.com',
+          name: process.env.NEXT_PRIVATE_SMTP_FROM_NAME || 'DocHub - 0xMetaLabs',
+          address: process.env.NEXT_PRIVATE_SMTP_FROM_ADDRESS || 'noreply@ses.0xmetalabs.com',
         },
         subject:
           isDirectTemplate && document.documentMeta?.subject
