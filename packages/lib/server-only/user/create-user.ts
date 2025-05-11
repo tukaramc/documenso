@@ -63,7 +63,7 @@ export const createUser = async ({ name, email, password, signature, url }: Crea
     //   data: {
     //     userId: user.id,
     //     type: 'emailPassword', // Todo: (RR7)
-    //     provider: 'DOCUMENSO', // Todo: (RR7) Enums
+    //     provider: '0xDocHub', // Todo: (RR7) Enums
     //     providerAccountId: user.id.toString(),
     //     password: hashedPassword,
     //   },
