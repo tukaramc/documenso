@@ -31,7 +31,7 @@ export type ConfirmTeamEmailProps = {
 
 export const ConfirmTeamEmailTemplate = ({
   assetBaseUrl = 'http://localhost:3002',
-  baseUrl = 'https://documenso.com',
+  baseUrl = 'https://dochub.ngx.0xmetalabs.com',
   teamName = 'Team Name',
   teamUrl = 'demo',
   token = '',
@@ -75,7 +75,7 @@ export const ConfirmTeamEmailTemplate = ({
               <Text className="text-center text-base">
                 <Trans>
                   <span className="font-bold">{teamName}</span> has requested to use your email
-                  address for their team on Documenso.
+                  address for their team on 0xDoxHub
                 </Trans>
               </Text>
 

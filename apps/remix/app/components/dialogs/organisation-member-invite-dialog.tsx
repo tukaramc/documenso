@@ -249,9 +249,9 @@ export const OrganisationMemberInviteDialog = ({
 
   const downloadTemplate = () => {
     const data = [
-      { email: 'admin@documenso.com', role: 'Admin' },
-      { email: 'manager@documenso.com', role: 'Manager' },
-      { email: 'member@documenso.com', role: 'Member' },
+      { email: 'admin0xmetalabs.com', role: 'Admin' },
+      { email: 'manager0xmetalabs.com', role: 'Manager' },
+      { email: 'member0xmetalabs.com', role: 'Member' },
     ];
 
     const csvContent =
@@ -303,7 +303,7 @@ export const OrganisationMemberInviteDialog = ({
               <AlertDescription>
                 <Trans>
                   Your plan does not support inviting members. Please upgrade or your plan or
-                  contact sales at <a href="mailto:support@documenso.com">support@documenso.com</a>{' '}
+                  contact sales at <a href="mailto:support0xmetalabs.com">support0xmetalabs.com</a>{' '}
                   if you would like to discuss your options.
                 </Trans>
               </AlertDescription>

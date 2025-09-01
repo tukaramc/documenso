@@ -38,7 +38,7 @@ test('[ORGANISATIONS]: manage preferences', async ({ page }) => {
   await page.getByTestId('enable-branding').click();
   await page.getByRole('option', { name: 'Yes' }).click();
   await page.getByRole('textbox', { name: 'Brand Website' }).click();
-  await page.getByRole('textbox', { name: 'Brand Website' }).fill('https://documenso.com');
+  await page.getByRole('textbox', { name: 'Brand Website' }).fill('https://dochub.ngx.0xmetalabs.com');
   await page.getByRole('textbox', { name: 'Brand Details' }).click();
   await page.getByRole('textbox', { name: 'Brand Details' }).fill('BrandDetails');
   await page.getByRole('button', { name: 'Update' }).nth(1).click();
@@ -57,7 +57,7 @@ test('[ORGANISATIONS]: manage preferences', async ({ page }) => {
   expect(teamSettings.uploadSignatureEnabled).toEqual(false);
   expect(teamSettings.drawSignatureEnabled).toEqual(false);
   expect(teamSettings.brandingEnabled).toEqual(true);
-  expect(teamSettings.brandingUrl).toEqual('https://documenso.com');
+  expect(teamSettings.brandingUrl).toEqual('https://dochub.ngx.0xmetalabs.com');
   expect(teamSettings.brandingCompanyDetails).toEqual('BrandDetails');
 
   // Edit the team settings
