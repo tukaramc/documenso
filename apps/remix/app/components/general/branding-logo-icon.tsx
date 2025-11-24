@@ -2,7 +2,7 @@ import type { SVGAttributes } from 'react';
 
 export type LogoProps = SVGAttributes<SVGSVGElement>;
 
-export const BrandingLogo = ({ ...props }: LogoProps) => {
+export const BrandingLogoIcon = ({ ...props }: LogoProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
