@@ -17,7 +17,7 @@ export const TemplateFooter = ({ isDocument = true }: TemplateFooterProps) => {
           <Trans>
             This document was sent using{' '}
             <Link className="text-[#7AC455]" href="https://0xmetalabs.com/">
-              0xDocHub.
+              0xDocHub by 0xMetaLabs.
             </Link>
           </Trans>
         </Text>
