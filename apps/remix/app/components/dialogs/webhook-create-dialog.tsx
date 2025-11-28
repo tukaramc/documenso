@@ -141,7 +141,7 @@ export const WebhookCreateDialog = ({ trigger, ...props }: WebhookCreateDialogPr
                       </FormControl>
 
                       <FormDescription>
-                        <Trans>The URL for Documenso to send webhook events to.</Trans>
+                        <Trans>The URL for 0xMetaLabs to send webhook events to.</Trans>
                       </FormDescription>
 
                       <FormMessage />
